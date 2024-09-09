@@ -424,7 +424,7 @@ for (i in 1:365){
   pi <- sum(Pc6m[i,])
 }
 par(mfrow=c(1,1))
-plot(t-9*365,klm6,type="l",lwd=2)
+plot(t-9*365,kl6m,type="l",lwd=2)
 
 #write.csv(kl6m, "klm6.csv")
 
